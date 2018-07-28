@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OAA.Data\OAA.Data.csproj" />
+    <ProjectReference Include="..\OAA.Repo\OAA.Repo.csproj" />
+    <ProjectReference Include="..\OAA.Service\OAA.Service.csproj" />
+  </ItemGroup>
+
+</Project>
